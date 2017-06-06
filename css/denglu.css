@@ -1,0 +1,118 @@
+*{margin:0px ;padding:0px; border: 0px;}
+body{
+	
+	background-image:url(../img/背景.jpg);
+	width:100%;
+}
+#caution
+{
+	width:300px;
+	height:40px;
+	font-size:24px;
+	font-family:"黑体";
+	line-height:40px;
+	background:#2780AC;
+	
+	border:1px solid #0000FF;
+	border-radius:5px;
+	position:absolute;
+	left:30%;
+	top:50%;
+	visibility:hidden;
+	
+}
+.denglu
+{
+	width:400px;
+	height:500px;
+	background-color: rgba(249,249,249,0.9);
+	border-radius: 20px;
+	position:absolute;
+	left:60%;
+    top:30%;
+}
+.denglu h1
+{
+	font-family:"楷体";
+	font-size: 40px;
+	text-align: center;
+	width:100%;
+	margin-bottom:50px;
+	margin-top:20px
+}
+.denglu .from_denglu
+ {
+	width:300px;
+	height:50px;
+    margin: 0px auto
+	
+}
+.denglu .from_denglu tr
+{
+	width:100%;
+}
+.denglu .from_denglu .label
+{
+	font-family: "楷体";
+	font-size:24px;
+	line-height: 30px;
+	border-left:1px solid #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	border-radius:5px 0px 0px 5px;
+	height:30px;
+	width:120px;
+	background:#fff;
+}
+.denglu .from_denglu .input
+{
+	
+	border-radius:5px 0px 0px 5px;
+	height:30px;
+	width:100px;
+	background:#fff;
+	height: 30px;
+	width:200px;
+}
+.denglu .from_denglu .input input
+{
+	height:30px;
+	width:200px;
+	border-right:1px solid #000;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	border-radius: 0px 5px 5px 0px;
+	
+    
+}
+.denglu .from_denglu .zidongdenglu{
+	font-family: "楷体";
+	font-size:20px;
+}
+.denglu .from_denglu a
+{
+    font-family:"楷体";
+    font-size: 16px;
+    color:#2780AC;
+    text-decoration:none;
+}
+.denglu .from_denglu a:hover
+{
+	color:#8A2BE2;
+}
+
+.denglu .from_denglu .submit
+{
+	width:300px;
+	height:40px;
+}
+.denglu .from_denglu .submit #submit
+{
+	width:200px;
+	height:40px;
+	background:#2780AC;
+    margin:0px 50px;
+    border-radius:5px;
+    box-shadow:0px 2px #2780AC;
+}
+

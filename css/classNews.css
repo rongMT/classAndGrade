@@ -1,0 +1,54 @@
+
+.content{
+	width:100%;
+	height:700px;
+}
+/*班级新闻目录*/
+.content .left{
+	width:200px;
+    float:left;
+	height:100%;
+	box-sizing:border-box;
+}
+.content .left ul{
+}
+.content .left ul li{
+   margin-bottom:6px;
+}
+.content .left ul li a{
+   color:#000;
+   font-size:15px;
+   line-height:18px;
+   text-align:center;
+   display:block;
+   width:100%;
+}
+.content .left ul li a:hover{
+       color:red;
+}
+.content .right{
+	width:1000px;
+	height:700px;
+	box-sizing:border-box;
+	float:left;
+	overflow: hidden;
+}
+.content .right .right_item{
+	width:900px;
+	height:700px;
+	margin:0px auto;
+	margin-top:20px;
+	color:#red;
+	font-size:15px;
+	line-height:18px;
+	display:none;
+	box-sizing: border-box;
+	overflow:auto;
+}
+.content .right .right_item h2{
+	text-align:center;
+	margin-bottom:20px;
+}
+.content .right .right_item p{
+	text-indent:2em;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" href="css/beijing.css" rel="stylesheet">
+		<link type="text/css" href="css/zhuce.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-3.1.1.slim.js"></script>
+		<script type="text/javascript" src="js/zhuce.js"></script>
+	</head>
+
+	<body>
+		<div id="main">
+			<div id="nav">
+				<from class="nav_right">
+					<input type="image" src="img/背景.jpg" class="input input_image">
+					<input type="button" value="注册" class="input button" />
+					<input type="button" value="登陆" class='input button' />
+				</from>
+			</div>
+
+			<div id="title">
+				<div class="zhucebiao">
+					<div class="top">
+						<h2>立即注册</h2>
+						<a href="denglu.html">已有账户？现在登陆</a>
+					</div>
+					<h3>欢迎成为《二次元情报站》的一员</h3>
+					<from name="from_zhucebiao" class="from_zhucebiao">
+						<div class="table_name table">
+							<table>
+								<tr>
+									<th >
+										<label for="name" class="label"><span>*</span>用户名:</label>
+									</th>
+									<td class="input">
+										<input type="text" name="name" id="name" placeholder="请输入三位以上字符">
+									</td>
+									<td class="hide" id="label_name"></td>
+								</tr>
+							</table>
+						</div>
+						<div class="table_password table">
+							<table>
+								<tr>
+									<th>
+										<label for="password" class="label"><span>*</span>密码:</label>
+									</th>
+									<td class="input">
+										<input type="password" name="password" id="password" placeholder="至少6位由数字 ，字母，字符组成" />
+									</td>
+									<td class="hide" id="label_password"></td>
+								</tr>
+							</table>
+						</div>
+						<div class="table_password_yanzheng table">
+							<table>
+								<tr>
+									<th>
+										<label for="password_yanzheng" class="label"><span>*</span>确认密码:</label>
+									</th>
+									<td class="input">
+										<input type="password" name="password_yanzheng" id="password_yanzheng"   placeholder="请再次输入密码" />
+									</td>
+									<td class="hide" id="label_password_yanzheng">
+
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="table_fuwutiaokuan">
+							<table>
+								<tr>
+									<td >
+										<input type="checkbox" name="checkbox"  class="checkbox" id="checkbox"  /><label for="checkbox">同意<a class="fuwutiaokuan" href=""> 网站服务条款</a></label>
+									</td>
+								</tr>
+							</table>
+						</div>
+						<div class="table_submit ">
+							<table>
+								<tr>
+									<td >
+											<input type="submit" class="submit" id="submit" name="submit" value="同意并注册" />
+									</td>
+								</tr>
+							</table>
+						</div>
+					</from>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

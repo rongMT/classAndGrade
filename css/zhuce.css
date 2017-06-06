@@ -1,0 +1,174 @@
+*{padding:0px;margin:0px;}
+#main{
+	  height:900px;
+}
+.zhucebiao
+{
+    width:95%;
+    height:90%;
+    margin:30px auto;
+    background:#fff;	
+}
+ .zhucebiao .top
+{
+	width:100%;
+	height:60px;
+	text-align: center;
+	position:relative;
+	background: #eee;
+}
+.zhucebiao .top h2{
+	position:absolute;
+	top:0px;
+	left:60px;
+	font-family: "微软雅黑";
+	font-size: 40px;
+	line-height: 60px;
+	color:darkblue;
+}
+ .zhucebiao .top a
+{
+	position:absolute;
+	top:0px;
+     right:50px;
+     font-size: 15px;
+     font-family: "微软雅黑";
+     line-height: 30px;
+     color:blue;
+     text-decoration: none;
+	
+}
+.zhucebiao h3
+{
+	width:100%;
+	font-size: 30px;
+	font-family: "楷体";
+	color:#8A2BE2;
+	line-height: 60px;
+}
+.zhucebiao .from_zhucebiao
+{
+	 width:100%;
+}
+.zhucebiao .from_zhucebiao .table
+{
+	width:900px;
+	height:60px;
+	margin:0px auto;
+	
+}
+.zhucebiao .from_zhucebiao .table table
+{
+	border-bottom:1px dashed #cecece ;
+	width:80%;
+	margin:0px auto;
+}
+.zhucebiao .from_zhucebiao .table tr th
+{
+	width:30%;
+	font-size: 24px;
+	line-height: 60px;
+	font-family:"黑体";
+	
+}
+.zhucebiao .from_zhucebiao .table tr th span
+{
+	color:red;
+}
+.zhucebiao .from_zhucebiao .table tr .input
+{
+	width:40%;
+	padding:auto 0px;
+}
+.zhucebiao .from_zhucebiao .table tr .input input
+{
+	width:100%;
+	height:30px;
+	font-size: 14px;
+	line-height: 30px;
+	border:1px #000 solid;
+	border-radius: 5px;
+}
+ .table tr .hide
+{
+	visibility:hidden;
+	color:red;
+	width:30%;
+	font-size: 24px;
+}
+
+
+.zhucebiao .from_zhucebiao .table_fuwutiaokuan
+{
+	
+	width:900px;
+  height:30px;
+  margin:0px auto;
+  margin-top:30px;
+} 
+
+.zhucebiao .from_zhucebiao .table_fuwutiaokuan  table
+{
+	  width:100%;
+	  
+}
+.zhucebiao .from_zhucebiao .table_fuwutiaokuan tr
+{
+	 
+	 width:100%;
+}
+.zhucebiao .from_zhucebiao .table_fuwutiaokuan tr td
+{
+	width:100%;
+}
+.zhucebiao .from_zhucebiao .table_fuwutiaokuan tr td .checkbox
+{
+	width:15px;
+	height:15px;
+	margin-left: 50%;
+}
+.zhucebiao .from_zhucebiao .table_fuwutiaokuan tr td a
+{  
+	 font-size: 18px;
+	 line-height: 30px;
+	 font-family: "楷体";
+	 color:#2780AC;
+	 text-decoration: none;
+}
+.zhucebiao .from_zhucebiao .table_fuwutiaokuan tr td a:hover
+{
+	color:#8A2BE2;
+}
+.zhucebiao .from_zhucebiao .table_submit
+{
+	width:900px;
+	height:60px;
+	margin:0px auto;
+}
+.zhucebiao .from_zhucebiao .table_submit table
+{
+	width:100%;
+}
+.zhucebiao .from_zhucebiao .table_submit table tr
+{
+	width:100%;
+}
+.zhucebiao .from_zhucebiao .table_submit table tr td
+{
+	width:100%;
+}
+.zhucebiao .from_zhucebiao .table_submit table tr td .submit
+{
+	margin-left: 33%;
+	width:300px;
+	height:60px;
+	background:#2780ac;
+	border-radius:10px;
+	box-shadow: 1px 2px 0px #2780ac;
+	font-size: 30px;
+	font-family:"黑体";
+	line-height: 60px;
+}
+
+
+

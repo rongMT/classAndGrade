@@ -1,0 +1,116 @@
+
+.content{
+	width:100%;
+	height:700px;
+}
+.top{
+	width:100%;
+	height:370px;
+}
+.classPhoto
+{
+	width:800px;
+	height:370px;
+    float:left;
+}
+/* 班级公告*/
+.classNotice
+{
+	width:350px;
+	height:200px;
+	color:#000;
+	margin-top:160px;
+	margin-left:10px;
+	border:1px solid #ccc;
+	box-sizing: border-box;
+	float:left;
+}
+
+.classNotice p{
+  color:#000;
+  font-size:15px;
+  height:18px;
+  text-indent:2em;
+  display:inline-block;
+}
+.bottom{
+   width:100%;
+   height:300px;
+}
+/*班级计划*/
+ .classCalendar
+{
+	width:300px;
+	height:300px;
+	display:inline-block;
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+ .classCalendar ul
+{
+	list-style-type:square;
+	margin-top:30px;
+}
+ .classCalendar ul li{
+	display:block;
+	width:100%;
+	height:20px;
+	font-size:15px;
+	line-height:20px;
+	color:#000;
+	text-align:center;
+	margin-bottom:10px;
+}
+/*班级新闻*/
+.classNews{
+     width:500px;
+     height:300px;
+     overflow: hidden;
+     display:inline-block;
+     border:1px solid #ccc;
+     box-sizing:border-box;
+     overflow:auto;
+}
+.classNews ul li{
+	display:block;
+	width:100%;
+	height:80px;
+}
+ .classNews ul li img
+{
+	width:60px;
+	height:40px;
+	float:left;
+	display:block;
+}
+ .classNews ul li p{
+	display:block;
+	width:400px;
+	height:100%;
+	float:right;
+	text-indent:2em;
+	font-size:15px;
+	line-height:18px;
+}
+.classSchedule{
+	width:350px;
+	height:100%;
+	overflow:hidden;
+	border: 1px solid #ccc;
+	box-sizing:border-box;
+	display:inline-block;
+}
+.classSchedule table
+{
+    border: 1px solid #000;
+    margin-top:20px;
+    margin-left:10px;
+}
+.classSchedule table td{
+  width:50px;
+  height:20px;
+  border:1px solid #000;
+  font-size:10px;
+  color:#000;
+}

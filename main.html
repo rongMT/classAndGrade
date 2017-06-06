@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link type="text/css" href="css/beijing.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/photo.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<div id="main">
+			<div id="nav">
+				<from class="nav_right">
+					<input type="image" src="img/背景.jpg"  class="input input_image">
+					<input type="button" value="注册" class="input button zhuce"  onclick="tiaozhuan('zhuce')"/>
+					<input type="button" value="登陆" class= 'input button denglu' onclick="tiaozhuan('denglu')"/>
+				</from>
+			</div>
+			<div id="title">
+				<div class="header">
+	                 <div class="mulu">
+	    	             <ul >
+		                     <li></li>
+			                 <li><a href="main.html">首页</a></li>
+			                 <li><a href="classNews.html">班级新闻</a></li>
+		                     <li><a href="classPhoto.html">班级相册</a></li>
+			                 <li><a href="classLeaveWord.html">留言本</a></li>
+			                 <li><a href="classWe.html">关于我们</a></li>
+			                 <li><a href="classWish.html">班级祝福</a></li>
+			                 <li></li>
+		                 </ul>
+	                 </div>
+	                <div class="show">
+	    	          <p>在这里记录我们的点点滴滴</p>
+	                </div>
+	             </div>
+	             <div class="content">
+	             <div class="top">
+                     <!-- 班级相片展示 -->
+			        <div class="classPhoto">
+				        <div class="slider">
+			             <!--0 修改VIEW >TEMPLATE(关键字)替换增加id-->
+			                 <div class="main" id="template_main">
+				                 <div class="main_i" id="main_{{index}}">
+				                     <div class="caption">
+						                 <h1>{{h1}}</h1>
+						                 <h2>{{h2}}</h2>
+					                 </div>
+					                <img src="img/{{index}}.jpg" alt="1">
+				                </div>
+			                </div>
+                            <div class="ctrl" id="template_ctrl" >
+            	                <a class="ctrl_i" id="ctrl_{{index}}" href="javascript:switchSlider({{index}})">
+            		                  <img src="img/{{index}}.jpg">
+            	                </a>
+                            </div>
+		                </div>
+		 	        </div>
+		            <!-- 班级公告 -->
+			        <div class="classNotice">
+				         <h1 class="h1">班级公告</h1>
+				         <div>
+				             <p class="classNoticeP">
+				                 {{classNotice}}
+					         </p>
+				        </div>
+		            </div>
+                </div>
+                <div class="bottom">
+			          <!-- 班级节日 -->
+			         <div class="classCalendar">
+			             <h1 class="h1">班级节日</h1>
+				         <ul class="classCalendarLi">
+				         </ul>
+			         </div>
+		             <!-- 班级新闻 -->
+			         <div class="classNews">
+				         <h1 class="h1">班级新闻</h1>
+				         <ul class="classNewsLi">
+					         <li>
+						         <img src="{{img}}" alt="">
+						         <p><a>{{li}}</a></p>
+					         </li>
+				         </ul>
+			         </div>
+			         <!-- 班级课表 -->
+			         <div class="classSchedule">
+				          <h1 class="h1">班级课表</h1>
+				          <table>
+                                 <tr>
+                   	                 <td ></td>
+                   	                 <td >星期一</td>
+                   	                 <td >星期二</td>
+                   	                 <td >星期三</td>
+                   	                 <td >星期四</td>
+                   	                 <td >星期五</td>
+                                 </tr>
+                                 <tr>
+                   	                 <td rowspan="2">上午</td>
+                   	                 <td >英语</td>
+                   	                 <td ></td>
+                   	                 <td >UML</td>
+                   	                 <td >UML</td>
+                   	                 <td >软件测试</td>
+                                 </tr>
+                                 <tr>
+                   	                 <td >java</td>
+                   	                 <td >软件测试</td>
+                   	                 <td >java</td>
+                   	                 <td >web</td>
+                   	                 <td >web</td>
+                                 </tr>
+                                 <tr>
+                   	                 <td rowspan="2">下午</td>
+                   	                 <td ></td>
+                   	                 <td >数据结构</td>
+                   	                 <td >英语</td>
+                   	                 <td >数据结构</td>
+                   	                 <td ></td>
+                                </tr>
+                                <tr>
+                   	                 <td ></td>
+                   	                 <td ></td>
+                   	                 <td >web</td>
+                   	                 <td ></td>
+                   	                 <td ></td>
+                                </tr>
+				            </table>
+			        </div>
+		        </div>
+                </div>
+	            <div class="footer">
+	                 <p>本软件版权所有归软件S15-4班李福荣同学所有</p>
+	            </div>	   	
+	         </div>
+	     </div>
+     <script src="./js/jquery-3.2.1.min.js" type="text/javascript" ></script>
+     <script src="./img/background.js" type="text/javascript"></script>
+	 <script src="./js/photo.js" type="text/javascript" ></script>
+	 <script src="./js/index.js" type="text/javascript" ></script>
+	 <script src="./js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+	</body>
+</html>

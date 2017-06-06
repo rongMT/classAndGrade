@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link type="text/css" href="css/beijing.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="css/classNews.css">
+	</head>
+	<body>
+		<div id="main">
+			<div id="nav">
+				<from class="nav_right">
+					<input type="image" src="img/背景.jpg"  class="input input_image">
+					<input type="button" value="注册" class="input button zhuce"  onclick="tiaozhuan('zhuce')"/>
+					<input type="button" value="登陆" class= 'input button denglu' onclick="tiaozhuan('denglu')"/>
+				</from>
+			</div>
+			
+			<div id="title">
+				<div class="header">
+	                 <div class="mulu">
+	    	             <ul >
+		                     <li></li>
+			                 <li><a href="main.html">首页</a></li>
+			                 <li><a href="classNews.html">班级新闻</a></li>
+		                     <li><a href="classPhoto.html">班级相册</a></li>
+			                 <li><a href="classLeaveWord.html">留言本</a></li>
+			                 <li><a href="classWe.html">关于我们</a></li>
+			                 <li><a href="classWish.html">班级祝福</a></li>
+			                 <li></li>
+		                 </ul>
+	                 </div>
+	                <div class="show">
+	    	          <p>在这里记录我们的点点滴滴</p>
+	                </div>
+	             </div>
+	             <div class="content">
+		            <div class="left">
+		               <h1 class="h1">班级新闻目录</h1>
+			           <ul class="classNewsLeft">
+				             <li>
+                                 <a class="item_0 item" onClick="replaceDis(this)">{{classNewsLeft}}</a>
+                             </li>
+                        </ul>
+                     </div>
+                     <div class="right classNewsRight">
+        	                 <div class="right_item right_0">
+        		                 {{classNewsRight}}       
+                             </div>
+                     </div>
+	            </div>
+	            <div class="footer">
+	                 <p>本软件版权所有归软件S15-4班李福荣同学所有</p>
+	            </div>
+			</div>
+		</div>
+	<script src="./js/classNews.js" type="text/javascript" ></script>
+    <script src="./js/jquery-3.2.1.min.js" type="text/javascript" ></script>
+    <script src="./js/index.js" type="text/javascript"></script>
+    <script src="./img/background.js" type="text/javascript"></script>
+     <script src="./js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+	</body>
+</html>
